@@ -86,8 +86,8 @@ checkAnswer("what's your question", "nothing"); // arguments
 var crickFan = readlineSync.question("hello "+ userName + " do you like cricket and do you want me know my favourite players and their streangth's : ")
 if(crickFan.toUpperCase() == "YES") {
   var kohli = {
-    centurys : 78,
-    number : 18,
+  centurys : 78,
+  number : 18,
   bat : "MRF",
   country : "INDIA",
   fans : "500M",
@@ -97,8 +97,8 @@ if(crickFan.toUpperCase() == "YES") {
   }
 
   var steveSmith = {
-      centurys : 44,
-      number : 49,
+    centurys : 44,
+    number : 49,
     bat : "New balance",
     country : "Austrila",
     fans : "100M",
@@ -118,8 +118,8 @@ if(crickFan.toUpperCase() == "YES") {
 } else {
   console.log("I know "+userName+ " you don't like, but I would like to show you cause this is my treat "+userName);
   var kohli = {
-    centurys : 78,
-    number : 18,
+  centurys : 78,
+  number : 18,
   bat : "MRF",
   country : "INDIA",
   fans : "500M",
@@ -129,8 +129,8 @@ if(crickFan.toUpperCase() == "YES") {
   }
 
   var steveSmith = {
-      centurys : 44,
-      number : 49,
+    centurys : 44,
+    number : 49,
     bat : "New balance",
     country : "Austrila",
     fans : "100M",
